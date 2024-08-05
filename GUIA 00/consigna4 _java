@@ -1,0 +1,21 @@
+
+/*
+Online Java - IDE, Code Editor, Compiler
+
+Online Java is a quick and easy tool that helps you to build, compile, test your programs online.
+*/
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner tomarValor=new Scanner (System.in);
+        System.out.println("ingrese un numero: ");
+        int numero=tomarValor.nextInt();
+        if ((numero%2)==0){
+            System.out.println("El numero es par");
+        }
+        else {
+            System.out.println("El numero es impar");
+        }
+    }
+}

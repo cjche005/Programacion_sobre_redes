@@ -1,0 +1,21 @@
+
+/*
+Online Java - IDE, Code Editor, Compiler
+
+Online Java is a quick and easy tool that helps you to build, compile, test your programs online.
+*/
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner tomarValor=new Scanner(System.in);
+        System.out.println("Ingrese un numero: ");
+        int numero1=tomarValor.nextInt();
+        System.out.println("Ingrese otro numero: ");
+        int numero2=tomarValor.nextInt();
+        System.out.println("La suma de estos dos es: "+(numero1+numero2));
+        System.out.println("La resta de estos dos es: "+(numero1-numero2));
+        System.out.println("La multiplicacion de estos dos es: "+(numero1*numero2));
+        System.out.println("La division de estos dos es: "+(numero1/numero2));
+    }
+}
